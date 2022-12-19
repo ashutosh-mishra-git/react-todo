@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgb(224, 223, 223);
+  flex-direction: column;
+  align-items: center;
+  background-color: #ede9e9c7;
+    box-shadow: 10px 10px 20px grey;
+}
+
+header{
+  margin: 40px 0px;
+  font-size: 2rem;
+  color: black;
+  background-color: aqua;
+  padding: 20px;
+  border: 2px solid #000;
+    border-radius: 11px;
+}
+
+.taskBanner{
+  width: 70%;
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input{
+  margin: 12px;
+  /* padding: 16px; */
+  outline-color: #95c8db;
+  height: 41px;
+  width: 182px;
+  font-size: large;
+  font-weight: 600;
+  /* outline: none; */
+  border-radius: 15px;
+  text-align: center;
+}
+
+button{
+  height: 41px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #5048d5;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 3px;
+}
+
+.show-content{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+
+}
+
+.show{
+  padding:0px;
+  background-color: rgb(196, 211, 211);
+  width: 100%;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
